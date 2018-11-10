@@ -77,3 +77,11 @@ stof_doctrine_extensions:
     orm:
         default:
             sluggable: true
+
+easy_admin:
+    entities:
+        # change the following to the namespaces of your own entities
+        - AppBundle\Entity\Genus
+        - AppBundle\Entity\GenusNote
+        - AppBundle\Entity\SubFamily
+        - AppBundle\Entity\User
