@@ -91,6 +91,7 @@ easy_admin:
         Genus:
             class: AppBundle\Entity\Genus
             label: Genuses
+            help: Do not cover warranty
         GenusNote:
             class: AppBundle\Entity\GenusNote
             label: Genus Notes
