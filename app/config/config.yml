@@ -84,6 +84,8 @@ easy_admin:
         brand_color: '#81b9ba'
         assets:
             css: ['css/custom_backend.css']
+    list:
+        title: 'List of %%entity_label%%'
     entities:
         # change the following to the namespaces of your own entities
         - AppBundle\Entity\Genus
